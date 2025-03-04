@@ -4,9 +4,8 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    flex: 1;
     background-color: #28283e;
-    min-height: 100vh;
+    min-height: 100dvh;
     margin: 0;
     padding: 3%;
     box-sizing: border-box;
