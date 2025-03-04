@@ -5,7 +5,8 @@ body {
     justify-content: center;
     text-align: center;
     background-color: #28283e;
-    min-height: calc(var(--vh, 1vh) * 100);
+    min-height: 100dvh;
+    font-family: 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 3%;
     box-sizing: border-box;
@@ -17,24 +18,25 @@ img {
     display: block;
 }
 
-div {
+.compliment {
+    font-size: 2em;
+    font-weight: 700;
+    font-size: 2em;
     max-width: 90%;
-    margin: 10px auto;
-    font-size: 1.2rem;
-    font-family: 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #EDE6DB;
 }
 
-.compliment {
-    font-weight: 700;
-    font-size: 2em;
-}
-
 .text {
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-top: auto;
     font-weight: 400;
     padding-bottom: 5%;
+    max-width: 90%;
+    color: #EDE6DB;
+}
+
+.number-text {
+    font-size: 1.5em;
 }
 
 .text-link {
