@@ -5,7 +5,7 @@ body {
     justify-content: center;
     text-align: center;
     background-color: #28283e;
-    min-height: 100dvh;
+    min-height: calc(var(--vh, 1vh) * 100);
     margin: 0;
     padding: 3%;
     box-sizing: border-box;
