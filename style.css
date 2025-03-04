@@ -8,7 +8,7 @@ body {
     background-color: #28283e;
     min-height: 100vh;
     margin: 0;
-    padding: 5%;
+    padding: 3%;
     box-sizing: border-box;
 }
 
@@ -29,18 +29,17 @@ div {
 .compliment {
     font-weight: 700;
     font-size: 2em;
-    text-shadow: 3px 3px 0 rgba(0, 0, 0, 1);
 }
 
 .text {
     font-size: 1.5em;
     margin-top: auto;
     font-weight: 400;
+    padding-bottom: 5%;
 }
 
 .text-link {
     color: #ff5f5f;
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: 600;
-    text-shadow: 2px 2px 0 rgba(0, 0, 0, 1);
 }
